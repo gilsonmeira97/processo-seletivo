@@ -1,5 +1,4 @@
 <?php 
-
     function SeculoAno($ano) {
         $seculos = $ano / 100;
         if($ano % 100 == 0) {
@@ -9,5 +8,5 @@
         }
     }
 
-    echo seculoAno(1705);
+    echo seculoAno(1805);
 ?>
